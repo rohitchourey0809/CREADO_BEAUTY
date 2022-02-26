@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/navstyle.css">
+</head>
+<body>
+    <div id="container">
+        <div id="navbar"></div>
+        <div id="main"></div>
+    </div>
+</body>
+</html>
+<script type="module">
+import navBar from "./navbar (1).js"
+ let res= navBar()
+ 
+ console.log(res)
+ let nav=document.getElementById('navbar')
+//  nav.append(res)
+nav.innerHTML=res
+
+let input=document.getElementById("searchbar")
+    input.addEventListener("keypress",(e)=>{
+
+if(e.key==="Enter")
+{
+    let input_value=document.getElementById("searchbar").value;
+    localStorage.setItem('search_term',input_value)
+    if(input_value=="makeup")
+    {
+    window.location.href="makeup.html";
+}
+else if(input_value="skincare")
+{
+    window.location.href="skincare.html";
+}
+else if(input_value="new")
+{
+    window.location.href="skincare.html";
+}
+}
+})
+</script>
