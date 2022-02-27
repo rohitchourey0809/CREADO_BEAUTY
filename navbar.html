@@ -22,26 +22,4 @@ import navBar from "./navbar (1).js"
  let nav=document.getElementById('navbar')
 //  nav.append(res)
 nav.innerHTML=res
-
-let input=document.getElementById("searchbar")
-    input.addEventListener("keypress",(e)=>{
-
-if(e.key==="Enter")
-{
-    let input_value=document.getElementById("searchbar").value;
-    localStorage.setItem('search_term',input_value)
-    if(input_value=="makeup")
-    {
-    window.location.href="makeup.html";
-}
-else if(input_value="skincare")
-{
-    window.location.href="skincare.html";
-}
-else if(input_value="new")
-{
-    window.location.href="skincare.html";
-}
-}
-})
 </script>

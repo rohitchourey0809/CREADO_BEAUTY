@@ -12,9 +12,6 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
-.lowertxt1>p{
-    font-size: 2vw;
-}
 .imgdiv1{
     /* border: 5px solid rgb(55, 0, 255); */
     /* width: 100%; */
@@ -24,7 +21,7 @@
 }
 #bannerimg>img{
     max-width: 100%;
-}
+    margin-left: 60px;}
 .imgdiv1>img{
     /* border: 1px solid rgb(255, 217, 0); */
     width: 100%;
@@ -67,9 +64,7 @@
 /* #lowermenu1>p{
     
 } */
-.beyb>img{
-    max-width: 100%;
-}
+
 #imgdivtrending{
     /* border: 1px solid rgb(0, 255, 213); */
     display: flex;
@@ -153,17 +148,17 @@ h4{
 
 }
 .head1{
-    font-size: 3.8vw;
+    font-size: 60px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-left: 5%;
 }
 .head2{
-    font-size: 1.1vw;
+    font-size: 25px;
     font-weight: bold;
     margin-left: 5%;
 }
 .tail{
-    font-size: 1vw;
+    font-size: 20px;
     font-weight: 600;
     margin-left: 5%;
 
@@ -183,11 +178,11 @@ h4{
 }
 .buttonn{
     margin-top: 4%;
-    font-size: 1.2vw;
+    
 }
 .box2>img{
     border: 2px solid;
-    max-width: 100%;
+    width: 600px;
 }
 
 #divcleanbeauty{
@@ -273,12 +268,12 @@ h4{
     font-size: ;
 } */
 .head{
-    font-size: 2vw;
+    font-size: 40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-left: 5%;
 }
 .content{
-    font-size: 2vw;
+    font-size: 25px;
     font-weight: 500;
     margin-left: 5%;
 
@@ -294,9 +289,7 @@ h4{
     box-shadow: 1px 1px 1px 1px gray;
 
 }
-#singlediv>img{
-    /* width: 20%; */
-}
+
 #fastimg{
     /* border:  2px solid rgb(212, 10, 105); */
     width: 15%;
@@ -309,9 +302,8 @@ h4{
 
 }
 .left-quote{
-    font-size: 5vw;
+    font-size: 50px;
 }
-
 #blog{
     /* border: 1px solid teal; */
     display: flex;
@@ -320,7 +312,7 @@ h4{
     width: 50%;
 }
 #blog>p{
-    font-size: 3vw;
+    font-size: 34px;
     margin-top: 2%;
 }
 /* .imgdiv1:hover {
@@ -345,7 +337,7 @@ h4{
 #logoteal{
    
     font-family: Crimson Text;
-    font-size:4.3vw;
+    font-size: 50px;
     font-weight: 400;
      text-align: center;
     color: #418993;
